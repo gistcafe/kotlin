@@ -23,7 +23,7 @@ tasks.test {
 dependencies {
     implementation(kotlin("stdlib"))
     implementation("com.google.code.gson:gson:2.8.6")
-    implementation("net.servicestack:gistcafe:0.0.6")
+    implementation("net.servicestack:gistcafe:0.0.7")
     testImplementation(platform("org.junit:junit-bom:5.7.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
 }
